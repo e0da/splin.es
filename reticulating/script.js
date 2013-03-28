@@ -25,7 +25,7 @@
   }
 
   function renderThrobber() {
-    new Throbber(30).appendTo($div.get(0)).start();
+    new Throbber({ size:30, rotationspeed: 0}).appendTo($div.get(0)).start();
   }
 
   function cacheQueries() {
