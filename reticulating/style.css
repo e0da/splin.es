@@ -1,0 +1,17 @@
+* {
+  background:  #333;
+  color:       #eee;
+  font-family: monospace;
+  font-size:   12px;
+  margin:      5px auto;
+  text-align:  center;
+  white-space: pre;
+}
+
+.absolute {
+  position: absolute;
+}
+
+div {
+  opacity: 0;
+}
